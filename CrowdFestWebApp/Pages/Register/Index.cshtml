@@ -1,0 +1,54 @@
+@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card text-center">
+        <h1 class="fw-bold">Create Profile</h1>
+
+        <form class="form-container mt-2">
+            <div class="d-grid gap-3">
+
+                <div class="text-start">
+                    <label for="email" class="form-label text-start">Display Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your display name" required />
+                </div>
+
+                <div class="text-start">
+                    <label for="password" class="form-label">First Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your first name" required/>
+                </div>
+
+                <div class="text-start">
+                    <label for="password" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your last name" required/>
+                </div>
+
+                <div class="text-start">
+                    <label for="password" class="form-label">Date of Birth</label>
+                    <input type="date" class="form-control" required />
+                </div>
+
+                <div class="text-start">
+                    <label for="gender" class="form-label">Gender</label>
+                    <select class="form-select" id="gender" name="gender">
+                        <option selected disabled>Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="text-start">
+                    <label for="password" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" placeholder="Enter your phone number" required />
+                </div>
+                
+            </div>
+
+            <button type="submit" class="btn btn-custom px-4 py-3 mt-3">Create Profile</button>
+        </form>
+    </div>
+</div>

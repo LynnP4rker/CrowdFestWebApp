@@ -29,3 +29,53 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.site-color {
+  color: #052865;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 700px;
+  height: 700px;
+  background-color: #ffffff;
+  padding: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  max-width: 355px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-check-label {
+  font-size: 0.875rem;
+}
+
+.form-check-input:checked {
+  background-color: #052865;
+  border-color: #052865;;
+}
+
+.btn-custom {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #052865;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #001f4d;
+  color: white;
+}
+
+.link {
+  color: gray;
+  font-size: 14px;
+}
+

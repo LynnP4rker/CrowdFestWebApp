@@ -8,25 +8,32 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/ibrahimgimba/.nuget/packages/": {}
+    "C:\\Users\\Igimb\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/CrowdFestWebApp.csproj",
+      "projectUniqueName": "c:\\Users\\Igimb\\source\\repos\\CrowdFestWebApp\\CrowdFestWebApp\\CrowdFestWebApp.csproj",
       "projectName": "CrowdFestWebApp",
-      "projectPath": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/CrowdFestWebApp.csproj",
-      "packagesPath": "/Users/ibrahimgimba/.nuget/packages/",
-      "outputPath": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/",
+      "projectPath": "c:\\Users\\Igimb\\source\\repos\\CrowdFestWebApp\\CrowdFestWebApp\\CrowdFestWebApp.csproj",
+      "packagesPath": "C:\\Users\\Igimb\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Igimb\\source\\repos\\CrowdFestWebApp\\CrowdFestWebApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/ibrahimgimba/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Igimb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -69,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
