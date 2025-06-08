@@ -1,3 +1,6 @@
+using CrowdFestWebApp.ApiClient;
+using CrowdFestWebApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -5,15 +8,27 @@ namespace CrowdFestWebApp.Pages;
 
 public class RegisterModel : PageModel
 {
+    private readonly AccountApiClient _apiClient;
     private readonly ILogger<RegisterModel> _logger;
 
-    public RegisterModel(ILogger<RegisterModel> logger)
+    [BindProperty]
+    public RegisterDto Register { get; set; }
+
+    public RegisterModel(ILogger<RegisterModel> logger, AccountApiClient apiClient)
     {
         _logger = logger;
+        _apiClient = apiClient;
     }
 
-    public IActionResult OnPost()
+    public async Task<IActionResult> OnPost()
     {
-        return RedirectToPage("/Register/Index");
+        string? accountId = await _apiClient.CreatePlannerAccountAsync(Register);
+
+        if (!ModelState.IsValid)
+        {
+            return Page();
+        }
+
+        return RedirectToPage("/Verify/Index", new { accountId });
     }
 }

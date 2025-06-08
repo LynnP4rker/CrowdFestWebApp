@@ -1,0 +1,26 @@
+@page
+@model VerifyPageModel
+@{
+    ViewData["Title"] = "Verify";
+}
+
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="login-card p-4">
+        <h5 class="text-danger fw-bold mb-4">Eventure</h5>
+        <h2 class="fw-bold mb-4">Account Verification</h2>
+
+        <form method="post">
+            <div class="mb-3">
+                <label class="form-label">Enter the verification code</label>
+                <input type="text" class="form-control" asp-for="verificationModel.otp" placeholder="Enter at least 8 characters"/>
+                <span asp-validation-for="verificationModel.otp"></span>
+            </div>
+
+            <button type="=submit" class="btn btn-danger w-100">Verify</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

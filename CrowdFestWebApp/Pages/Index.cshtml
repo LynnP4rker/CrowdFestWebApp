@@ -4,30 +4,14 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="d-flex justify-content-center align-items-center vh-100">
-    <div class="card text-center">
-        <h1 class="fw-bold">Welcome to <span>Crowd<span class="site-color">Fest</span></span></h1>
-        <h6 class="text-muted mb-4">Sign In</h6>
-
-        <form class="form-container">
-            <div class="d-grid gap-3">
-                <div class="text-start">
-                    <label for="email" class="form-label text-start">Email</label>
-                    <input type="email" class="form-control" placeholder="example@gmail.com" required />
-                </div>
-                <div class="text-start">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" placeholder="Enter at least 8 characters" required minlength="8" />
-                </div>
-            </div>
-
-            <div class="d-grid gap-2">
-                <div class="d-flex justify-content-between">
-                    <p class="text-start pt-1"><a class="link link-underline link-underline-opacity-0" asp-page="/Account/Index">Don't Have an Account?</a></p>
-                    <p class="text-start pt-1"><a class="link link-underline link-underline-opacity-0" >Forgot Password?</a></p>
-                </div>
-                <button type="submit" class="btn btn-custom px-4 py-3">Sign In</button>
-            </div>
-        </form>
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="login-card p-4">
+        <h5 class="text-danger fw-bold mb-4">Eventure</h5>
+        <h2 class="fw-bold mb-1">Welcome !</h2>
+        <h2 class="fw-bold mb-4">Login into your account</h2>
     </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

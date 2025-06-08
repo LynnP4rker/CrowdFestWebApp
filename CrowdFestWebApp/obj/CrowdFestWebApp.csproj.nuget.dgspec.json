@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Igimb\\source\\repos\\CrowdFestWebApp\\CrowdFestWebApp\\CrowdFestWebApp.csproj": {}
+    "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/CrowdFestWebApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Igimb\\source\\repos\\CrowdFestWebApp\\CrowdFestWebApp\\CrowdFestWebApp.csproj": {
+    "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/CrowdFestWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Igimb\\source\\repos\\CrowdFestWebApp\\CrowdFestWebApp\\CrowdFestWebApp.csproj",
+        "projectUniqueName": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/CrowdFestWebApp.csproj",
         "projectName": "CrowdFestWebApp",
-        "projectPath": "c:\\Users\\Igimb\\source\\repos\\CrowdFestWebApp\\CrowdFestWebApp\\CrowdFestWebApp.csproj",
-        "packagesPath": "C:\\Users\\Igimb\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Igimb\\source\\repos\\CrowdFestWebApp\\CrowdFestWebApp\\obj\\",
+        "projectPath": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/CrowdFestWebApp.csproj",
+        "packagesPath": "/Users/ibrahimgimba/.nuget/packages/",
+        "outputPath": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Igimb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ibrahimgimba/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,11 +39,17 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
