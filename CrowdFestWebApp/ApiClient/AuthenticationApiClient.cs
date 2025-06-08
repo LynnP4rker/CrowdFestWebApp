@@ -10,16 +10,16 @@ public class AuthenticationApiClient
         _httpClient = httpClient;
     }
 
-    public async Task<string?> LoginPlannerAsync(Login login)
+    public async Task<string?> LoginPlannerAsync(LoginDto content)
     {
-        var response = await _httpClient.PostAsJsonAsync("/Planner", login);
+        var response = await _httpClient.PostAsJsonAsync("/Planner", content);
         if (!response.IsSuccessStatusCode) return null;
 
         return await response.Content.ReadAsStringAsync();
     }
-    public async Task<string?> LoginOrganizationAsync(Login login)
+    public async Task<string?> LoginOrganizationAsync(LoginDto content)
     {
-        var response = await _httpClient.PostAsJsonAsync("/Organisation", login);
+        var response = await _httpClient.PostAsJsonAsync("/Organisation", content);
         if (!response.IsSuccessStatusCode) return null;
 
         return await response.Content.ReadAsStringAsync();

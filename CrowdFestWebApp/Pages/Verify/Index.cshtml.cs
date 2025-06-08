@@ -7,30 +7,26 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CrowdFestWebApp.Pages;
 
-public class VerifyPageModel : PageModel
+public class VerifyModel : PageModel
 {
     private readonly AccountApiClient _apiClient;
 
     [BindProperty]
-    public VerificationModel verificationModel { get; set; }
+    public VerificationDto model { get; set; }
 
     [BindProperty(SupportsGet = true)]
     public string AccountId { get; set; }
 
-    public VerifyPageModel(ILogger<LoginModel> logger, AccountApiClient apiClient)
+    public VerifyModel(ILogger<LoginModel> logger, AccountApiClient apiClient)
     {
         _apiClient = apiClient;
-    }
-
-    public void OnGet()
-    {
-        
+        AccountId = String.Empty;
     }
 
     public async Task<IActionResult> OnPost()
     {
-        verificationModel.id = new Guid(AccountId);
-        string? response = await _apiClient.VerifyAccountAsync(verificationModel);
+        model.Id = new Guid(AccountId);
+        string? response = await _apiClient.VerifyAccountAsync(model);
 
         if (!ModelState.IsValid)
         {

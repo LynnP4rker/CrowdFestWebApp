@@ -12,7 +12,7 @@ public class RegisterModel : PageModel
     private readonly ILogger<RegisterModel> _logger;
 
     [BindProperty]
-    public RegisterDto Register { get; set; }
+    public RegisterDto model { get; set; }
 
     public RegisterModel(ILogger<RegisterModel> logger, AccountApiClient apiClient)
     {
@@ -22,7 +22,7 @@ public class RegisterModel : PageModel
 
     public async Task<IActionResult> OnPost()
     {
-        string? accountId = await _apiClient.CreatePlannerAccountAsync(Register);
+        string? accountId = await _apiClient.CreatePlannerAccountAsync(model);
 
         if (!ModelState.IsValid)
         {

@@ -1,5 +1,5 @@
 @page
-@model VerifyPageModel
+@model VerifyModel
 @{
     ViewData["Title"] = "Verify";
 }
@@ -12,8 +12,8 @@
         <form method="post">
             <div class="mb-3">
                 <label class="form-label">Enter the verification code</label>
-                <input type="text" class="form-control" asp-for="verificationModel.otp" placeholder="Enter at least 8 characters"/>
-                <span asp-validation-for="verificationModel.otp"></span>
+                <input type="text" class="form-control" asp-for="model.Otp" placeholder="Enter at least 8 characters"/>
+                <span asp-validation-for="model.Otp"></span>
             </div>
 
             <button type="=submit" class="btn btn-danger w-100">Verify</button>

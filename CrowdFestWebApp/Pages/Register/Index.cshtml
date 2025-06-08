@@ -11,21 +11,21 @@
 
         <form method="post">
             <div class="mb-3">
-                <label class="form-label" asp-for="Register.displayName">Display Name</label>
-                <input type="text" class="form-control" asp-for="Register.displayName" placeholder="Enter at least 8 characters"/>
-                <span asp-validation-for="Register.displayName"></span>
+                <label class="form-label" asp-for="model.DisplayName">Display Name</label>
+                <input type="text" class="form-control" asp-for="model.DisplayName" placeholder="Enter at least 8 characters"/>
+                <span asp-validation-for="model.DisplayName"></span>
             </div>
 
             <div class="mb-3">
-                <label class="form-label" asp-for="Register.emailAddress">Email Address</label>
-                <input type="text" class="form-control" asp-for="Register.emailAddress" placeholder="Enter your email"/>
-                <span asp-validation-for="Register.emailAddress"></span>
+                <label class="form-label" asp-for="model.EmailAddress">Email Address</label>
+                <input type="text" class="form-control" asp-for="model.EmailAddress" placeholder="Enter your email"/>
+                <span asp-validation-for="model.EmailAddress"></span>
             </div>
 
             <div class="mb-4">
-                <label class="form-label" asp-for="Register.password">Password</label>
-                <input type="password" class="form-control" asp-for="Register.password" placeholder="Enter your password"/>
-                <span asp-validation-for="Register.password"></span>
+                <label class="form-label" asp-for="model.Password">Password</label>
+                <input type="password" class="form-control" asp-for="model.Password" placeholder="Enter your password"/>
+                <span asp-validation-for="model.Password"></span>
             </div>
  
             <button type="=submit" class="btn btn-danger w-100">Continue</button>

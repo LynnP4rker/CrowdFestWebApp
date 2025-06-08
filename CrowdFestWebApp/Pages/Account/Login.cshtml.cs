@@ -13,7 +13,7 @@ public class LoginModel : PageModel
     private readonly ILogger<LoginModel> _logger;
 
     [BindProperty]
-    public Login Login { get; set; } 
+    public LoginDto model { get; set; } 
 
     public LoginModel(ILogger<LoginModel> logger, AuthenticationApiClient apiClient)
     {
@@ -23,7 +23,7 @@ public class LoginModel : PageModel
 
     public async Task<IActionResult> OnPost()
     {
-        string? token = await _apiClient.LoginPlannerAsync(Login);
+        string? token = await _apiClient.LoginPlannerAsync(model);
         
         if (!ModelState.IsValid)
         {

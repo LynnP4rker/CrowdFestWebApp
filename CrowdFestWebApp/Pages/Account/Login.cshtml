@@ -12,15 +12,15 @@
 
         <form method="post">
             <div class="mb-3">
-                <label asp-for="Login.emailAddress" class="form-label">Email</label>
-                <input class="form-control" asp-for="Login.emailAddress" placeholder="Enter your email"/>
-                <span asp-validation-for="Login.emailAddress" ></span>
+                <label asp-for="model.EmailAddress" class="form-label">Email</label>
+                <input class="form-control" asp-for="model.EmailAddress" placeholder="Enter your email"/>
+                <span asp-validation-for="model.EmailAddress" ></span>
             </div>
 
             <div class="mb-4">
-                <label asp-for="Login.password" class="form-label">Password</label>
-                <input type="password" class="form-control" asp-for="Login.password" placeholder="Enter your password"/>
-                <span asp-validation-for="Login.password" ></span>
+                <label asp-for="model.Password" class="form-label">Password</label>
+                <input type="password" class="form-control" asp-for="model.Password" placeholder="Enter your password"/>
+                <span asp-validation-for="model.Password" ></span>
             </div>
  
             <button type="=submit" class="btn btn-danger w-100">Continue</button>

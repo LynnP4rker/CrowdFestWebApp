@@ -1,12 +1,12 @@
 namespace CrowdFestWebApp.Models;
 
-public class VerificationModel
+public class VerificationDto
 {
-    public Guid id { get; set; }
-    public string otp { get; set; }
+    public Guid Id { get; set; }
+    public string Otp { get; set; }
 
-    public VerificationModel()
+    public VerificationDto()
     {
-        otp = String.Empty;
+        Otp = String.Empty;
     }
 }

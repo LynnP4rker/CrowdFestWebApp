@@ -1,14 +1,12 @@
 namespace CrowdFestWebApp.Models;
 
-public class RegisterDto
+public class LoginDto
 {
-    public string DisplayName { get; set; }
     public string EmailAddress { get; set; }
     public string Password { get; set; }
 
-    public RegisterDto()
+    public LoginDto()
     {
-        DisplayName = String.Empty;
         EmailAddress = String.Empty;
         Password = String.Empty;
     }

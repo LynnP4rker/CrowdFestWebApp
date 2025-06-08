@@ -18,7 +18,7 @@ public class AccountApiClient
         return await response.Content.ReadAsStringAsync();
     }
 
-    public async Task<string?> VerifyAccountAsync(VerificationModel content)
+    public async Task<string?> VerifyAccountAsync(VerificationDto content)
     {
         var response = await _httpClient.PostAsJsonAsync("Account/Planner/otp/verify", content);
         if (!response.IsSuccessStatusCode) return null;
