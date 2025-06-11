@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/concert-image.jpg",
+      "PackagePath": "staticwebassets/images/concert-image.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/grill-image.jpg",
+      "PackagePath": "staticwebassets/images/grill-image.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/pride-image.jpg",
+      "PackagePath": "staticwebassets/images/pride-image.jpg"
+    },
+    {
       "Id": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

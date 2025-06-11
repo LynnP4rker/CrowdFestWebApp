@@ -188,7 +188,6 @@ c:/Users/Igimb/source/repos/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/Cro
 c:/Users/Igimb/source/repos/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/ref/CrowdFestWebApp.dll
 c:/Users/Igimb/source/repos/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-9prbyg10oi.gz
 /Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/CrowdFestWebApp.sourcelink.json
-/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-agjgtnm5ih.gz
 /Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
 /Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
@@ -199,3 +198,4 @@ c:/Users/Igimb/source/repos/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/com
 /Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/CrowdFestWebApp.csproj.AssemblyReference.cache
 /Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/CrowdFes.6AD23549.Up2Date
+/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-zr0ppl6so2.gz

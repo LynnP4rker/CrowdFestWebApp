@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3kaC0hOcwuRGaUTmh+9lmKQ0NjkKNxa3gZpBIlEw488=",
+  "Hash": "BmxZlhcZ3M/NicuCF3jINYWLO5LaczFd9W5FjOMVJYE=",
   "Source": "CrowdFestWebApp",
   "BasePath": "_content/CrowdFestWebApp",
   "Mode": "Default",
@@ -1235,12 +1235,12 @@
       "OriginalItemSpec": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-agjgtnm5ih.gz",
+      "Identity": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-zr0ppl6so2.gz",
       "SourceId": "CrowdFestWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/CrowdFestWebApp",
-      "RelativePath": "css/site#[.{fingerprint=agjgtnm5ih}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=zr0ppl6so2}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "255etw7a1c",
-      "Integrity": "ekHRTBW1ghPfdE0HP2o/olUZtghJ0lcpcPvT4VBd4k0=",
+      "Fingerprint": "345gws9prw",
+      "Integrity": "HaKvfE7ZghCEvCfn596evOpCoqODLTENmW+rn9PsfzU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/css/site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "agjgtnm5ih",
-      "Integrity": "el8A+srgaTFMBw0JDCV75ONaMq5bIRhyKaVD+qI0OEI=",
+      "Fingerprint": "zr0ppl6so2",
+      "Integrity": "0aKEXKNvcnjkddIUmNYcgXEhfzDjQ90an/kseEHfLs0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -1443,6 +1443,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/concert-image.jpg",
+      "SourceId": "CrowdFestWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/",
+      "BasePath": "_content/CrowdFestWebApp",
+      "RelativePath": "images/concert-image#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jy72ungtin",
+      "Integrity": "y26DI/nDZYgOQf0UJYcNTQ+wvqSSiaSNJvx1tnC8XgI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/concert-image.jpg"
+    },
+    {
+      "Identity": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/grill-image.jpg",
+      "SourceId": "CrowdFestWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/",
+      "BasePath": "_content/CrowdFestWebApp",
+      "RelativePath": "images/grill-image#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6zx4z4hbbr",
+      "Integrity": "/hdN1EGBiKOIhC/rPdMUIdetJZfz7Ss/9izfLGQlHiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/grill-image.jpg"
+    },
+    {
+      "Identity": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/pride-image.jpg",
+      "SourceId": "CrowdFestWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/",
+      "BasePath": "_content/CrowdFestWebApp",
+      "RelativePath": "images/pride-image#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o8pt58cah8",
+      "Integrity": "+FUxSdgLCkmsEUhu2XD370poiv5I8uzqSdToIyWDs2Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pride-image.jpg"
     },
     {
       "Identity": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/js/site.js",
@@ -3324,13 +3387,13 @@
       ]
     },
     {
-      "Route": "css/site.agjgtnm5ih.css",
-      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-agjgtnm5ih.gz",
+      "Route": "css/site.css",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-zr0ppl6so2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002557544757"
+          "Quality": "0.000804505229"
         }
       ],
       "ResponseHeaders": [
@@ -3340,19 +3403,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "390"
+          "Value": "1242"
         },
         {
           "Name": "ETag",
-          "Value": "\"ekHRTBW1ghPfdE0HP2o/olUZtghJ0lcpcPvT4VBd4k0=\""
+          "Value": "\"HaKvfE7ZghCEvCfn596evOpCoqODLTENmW+rn9PsfzU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 16:56:34 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:46 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3368,26 +3431,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"el8A+srgaTFMBw0JDCV75ONaMq5bIRhyKaVD+qI0OEI=\""
+          "Value": "W/\"0aKEXKNvcnjkddIUmNYcgXEhfzDjQ90an/kseEHfLs0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "agjgtnm5ih"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-el8A+srgaTFMBw0JDCV75ONaMq5bIRhyKaVD+qI0OEI="
+          "Value": "sha256-0aKEXKNvcnjkddIUmNYcgXEhfzDjQ90an/kseEHfLs0="
         }
       ]
     },
     {
-      "Route": "css/site.agjgtnm5ih.css",
+      "Route": "css/site.css",
       "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3397,7 +3452,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "824"
+          "Value": "4288"
         },
         {
           "Name": "Content-Type",
@@ -3405,11 +3460,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"el8A+srgaTFMBw0JDCV75ONaMq5bIRhyKaVD+qI0OEI=\""
+          "Value": "\"0aKEXKNvcnjkddIUmNYcgXEhfzDjQ90an/kseEHfLs0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 16:56:34 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0aKEXKNvcnjkddIUmNYcgXEhfzDjQ90an/kseEHfLs0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-zr0ppl6so2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HaKvfE7ZghCEvCfn596evOpCoqODLTENmW+rn9PsfzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 09:41:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HaKvfE7ZghCEvCfn596evOpCoqODLTENmW+rn9PsfzU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zr0ppl6so2.css",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-zr0ppl6so2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000804505229"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1242"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HaKvfE7ZghCEvCfn596evOpCoqODLTENmW+rn9PsfzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 09:41:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0aKEXKNvcnjkddIUmNYcgXEhfzDjQ90an/kseEHfLs0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zr0ppl6so2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0aKEXKNvcnjkddIUmNYcgXEhfzDjQ90an/kseEHfLs0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zr0ppl6so2.css",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0aKEXKNvcnjkddIUmNYcgXEhfzDjQ90an/kseEHfLs0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 09:41:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3419,7 +3619,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "agjgtnm5ih"
+          "Value": "zr0ppl6so2"
         },
         {
           "Name": "label",
@@ -3427,13 +3627,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-el8A+srgaTFMBw0JDCV75ONaMq5bIRhyKaVD+qI0OEI="
+          "Value": "sha256-0aKEXKNvcnjkddIUmNYcgXEhfzDjQ90an/kseEHfLs0="
         }
       ]
     },
     {
-      "Route": "css/site.agjgtnm5ih.css.gz",
-      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-agjgtnm5ih.gz",
+      "Route": "css/site.zr0ppl6so2.css.gz",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-zr0ppl6so2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3442,7 +3642,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "390"
+          "Value": "1242"
         },
         {
           "Name": "Content-Type",
@@ -3450,11 +3650,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ekHRTBW1ghPfdE0HP2o/olUZtghJ0lcpcPvT4VBd4k0=\""
+          "Value": "\"HaKvfE7ZghCEvCfn596evOpCoqODLTENmW+rn9PsfzU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 16:56:34 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3472,7 +3672,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "agjgtnm5ih"
+          "Value": "zr0ppl6so2"
         },
         {
           "Name": "label",
@@ -3480,144 +3680,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ekHRTBW1ghPfdE0HP2o/olUZtghJ0lcpcPvT4VBd4k0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-agjgtnm5ih.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002557544757"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "390"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ekHRTBW1ghPfdE0HP2o/olUZtghJ0lcpcPvT4VBd4k0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 16:56:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"el8A+srgaTFMBw0JDCV75ONaMq5bIRhyKaVD+qI0OEI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-el8A+srgaTFMBw0JDCV75ONaMq5bIRhyKaVD+qI0OEI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "824"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"el8A+srgaTFMBw0JDCV75ONaMq5bIRhyKaVD+qI0OEI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 16:56:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-el8A+srgaTFMBw0JDCV75ONaMq5bIRhyKaVD+qI0OEI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/obj/Debug/net9.0/compressed/xdfhhyedtg-agjgtnm5ih.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "390"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ekHRTBW1ghPfdE0HP2o/olUZtghJ0lcpcPvT4VBd4k0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 16:56:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ekHRTBW1ghPfdE0HP2o/olUZtghJ0lcpcPvT4VBd4k0="
+          "Value": "sha256-HaKvfE7ZghCEvCfn596evOpCoqODLTENmW+rn9PsfzU="
         }
       ]
     },
@@ -3916,6 +3979,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "images/concert-image.jpg",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/concert-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25505750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y26DI/nDZYgOQf0UJYcNTQ+wvqSSiaSNJvx1tnC8XgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 07:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y26DI/nDZYgOQf0UJYcNTQ+wvqSSiaSNJvx1tnC8XgI="
+        }
+      ]
+    },
+    {
+      "Route": "images/concert-image.jy72ungtin.jpg",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/concert-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25505750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y26DI/nDZYgOQf0UJYcNTQ+wvqSSiaSNJvx1tnC8XgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 07:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jy72ungtin"
+        },
+        {
+          "Name": "label",
+          "Value": "images/concert-image.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y26DI/nDZYgOQf0UJYcNTQ+wvqSSiaSNJvx1tnC8XgI="
+        }
+      ]
+    },
+    {
+      "Route": "images/grill-image.6zx4z4hbbr.jpg",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/grill-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24513558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/hdN1EGBiKOIhC/rPdMUIdetJZfz7Ss/9izfLGQlHiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 07:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6zx4z4hbbr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/grill-image.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/hdN1EGBiKOIhC/rPdMUIdetJZfz7Ss/9izfLGQlHiE="
+        }
+      ]
+    },
+    {
+      "Route": "images/grill-image.jpg",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/grill-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24513558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/hdN1EGBiKOIhC/rPdMUIdetJZfz7Ss/9izfLGQlHiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 07:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/hdN1EGBiKOIhC/rPdMUIdetJZfz7Ss/9izfLGQlHiE="
+        }
+      ]
+    },
+    {
+      "Route": "images/pride-image.jpg",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/pride-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21277560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+FUxSdgLCkmsEUhu2XD370poiv5I8uzqSdToIyWDs2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 07:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+FUxSdgLCkmsEUhu2XD370poiv5I8uzqSdToIyWDs2Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/pride-image.o8pt58cah8.jpg",
+      "AssetFile": "/Users/ibrahimgimba/Desktop/VsCode/CrowdFestWebApp/CrowdFestWebApp/wwwroot/images/pride-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21277560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+FUxSdgLCkmsEUhu2XD370poiv5I8uzqSdToIyWDs2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 07:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o8pt58cah8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pride-image.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+FUxSdgLCkmsEUhu2XD370poiv5I8uzqSdToIyWDs2Y="
         }
       ]
     },

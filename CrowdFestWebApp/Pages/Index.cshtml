@@ -4,13 +4,294 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="d-flex justify-content-center align-items-center min-vh-100">
-    <div class="login-card p-4">
-        <h5 class="text-danger fw-bold mb-4">Eventure</h5>
-        <h2 class="fw-bold mb-1">Welcome !</h2>
-        <h2 class="fw-bold mb-4">Login into your account</h2>
+<!-- Carousal -->
+<div class="d-flex justify-content-center mt-3">
+  <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel" style="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="~/images/concert-image.jpg" class="carousel-image" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="~/images/grill-image.jpg" class="carousel-image" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="~/images/pride-image.jpg" class="carousel-image" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- Dashboard -->
+
+<h2 class="fw-bold mt-5">Your Dashboard</h2>
+
+<!-- Upcoming Events -->
+<div class="border-bottom border-dark-subtle mt-3">
+    <h4>Upcoming Events</h4>
+</div>
+
+<div class="container py-4 ps-0">
+    <div class="row justify-content-start">
+        <!-- Events -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="event-card">
+                <!-- Event Title -->
+                <div class="event-title">
+                    <span>Alice's 25th Birthday Party</span>
+                </div>
+
+                <!-- Event Statistics -->
+                <div class="event-stats">
+                    <div class="stat-item">
+                        <i class="bi bi-hand-thumbs-up-fill"></i> 15
+                    </div>
+                    <div class="stat-item">
+                        <i class="bi bi-hand-thumbs-down-fill"></i> 2
+                    </div>
+                    <div class="stat-item">
+                        <i class="bi bi-people-fill"></i> 20
+                    </div>
+                </div>
+
+                <!-- Event Description -->
+                <p class="event-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.
+                </p>
+
+                <!-- Event Details -->
+                <div class="event-details">
+                    <div class="detail-item">
+                        <i class="bi bi-calendar3"></i> 14/02/2026
+                    </div>
+                    <div class="detail-item">
+                        <i class="bi bi-clock-history"></i> 10:00 AM - 16:00 PM
+                    </div>
+                    <div class="detail-item">
+                        <i class="bi bi-geo-alt-fill"></i> Edinburgh
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="event-card">
+                <!-- Event Title -->
+                <div class="event-title">
+                    <span>Midnight Bowling</span>
+                </div>
+
+                <!-- Event Statistics -->
+                <div class="event-stats">
+                    <div class="stat-item">
+                        <i class="bi bi-hand-thumbs-up-fill"></i> 15
+                    </div>
+                    <div class="stat-item">
+                        <i class="bi bi-hand-thumbs-down-fill"></i> 2
+                    </div>
+                    <div class="stat-item">
+                        <i class="bi bi-people-fill"></i> 20
+                    </div>
+                </div>
+
+                <!-- Event Description -->
+                <p class="event-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.
+                </p>
+
+                <!-- Event Details -->
+                <div class="event-details">
+                    <div class="detail-item">
+                        <i class="bi bi-calendar3"></i> 14/02/2026
+                    </div>
+                    <div class="detail-item">
+                        <i class="bi bi-clock-history"></i> 10:00 AM - 16:00 PM
+                    </div>
+                    <div class="detail-item">
+                        <i class="bi bi-geo-alt-fill"></i> Edinburgh
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="event-card">
+                <!-- Event Title -->
+                <div class="event-title">
+                    <span>Bongo Night</span>
+                </div>
+
+                <!-- Event Statistics -->
+                <div class="event-stats">
+                    <div class="stat-item">
+                        <i class="bi bi-hand-thumbs-up-fill"></i> 15
+                    </div>
+                    <div class="stat-item">
+                        <i class="bi bi-hand-thumbs-down-fill"></i> 2
+                    </div>
+                    <div class="stat-item">
+                        <i class="bi bi-people-fill"></i> 20
+                    </div>
+                </div>
+
+                <!-- Event Description -->
+                <p class="event-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.
+                </p>
+
+                <!-- Event Details -->
+                <div class="event-details">
+                    <div class="detail-item">
+                        <i class="bi bi-calendar3"></i> 14/02/2026
+                    </div>
+                    <div class="detail-item">
+                        <i class="bi bi-clock-history"></i> 10:00 AM - 16:00 PM
+                    </div>
+                    <div class="detail-item">
+                        <i class="bi bi-geo-alt-fill"></i> Edinburgh
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+
+<!-- Browse Events -->
+<div class="border-bottom border-dark-subtle mt-3">
+    <h4>Browse Events</h4>
+</div>
+<ul class="nav nav-tabs mt-2" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">All</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="for-you-tab" data-bs-toggle="tab" data-bs-target="#foryou" type="button" role="tab" aria-controls="fyp-tab-pane" aria-selected="false">For You</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="free-tab" data-bs-toggle="tab" data-bs-target="#free" type="button" role="tab" aria-controls="free-tab-pane" aria-selected="false">Free</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pride-tab" data-bs-toggle="tab" data-bs-target="#pride" type="button" role="tab" aria-controls="pride-tab-pane" aria-selected="false">Pride</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="outdoor-tab" data-bs-toggle="tab" data-bs-target="#outdoor" type="button" role="tab" aria-controls="outdoor-tab-pane" aria-selected="false">Outdoor</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="indoor-tab" data-bs-toggle="tab" data-bs-target="#indoor" type="button" role="tab" aria-controls="indoor-tab-pane" aria-selected="false">Indoor</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="food-drinks-tab" data-bs-toggle="tab" data-bs-target="#foondanddrinks" type="button" role="tab" aria-controls="food-drinks-tab-pane" aria-selected="false">Food & Drinks</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Music</button>
+  </li>
+</ul>
+
+<div class="tab-content mt-3">
+    <div id="all" class="tab-pane fade show active">
+        <div class="resource-card">
+            <!-- Event Title -->
+            <h5 class="fw-bold">Bingo Night</h5>
+
+            <!-- Event Descriptions -->
+            <p class="event-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.
+            </p>
+
+            <!-- Event Details -->
+            <div class="detail-item">
+                <i class="bi bi-calendar3 text-dark"></i> 14/02/2026
+            </div>
+            <div class="detail-item">
+                <i class="bi bi-clock-history text-dark"></i> 10:00 AM - 16:00 PM
+            </div>
+            <div class="detail-item">
+                <i class="bi bi-cash-coin text-success"></i> $20
+            </div>
+        </div>
+    </div>
+
+    <div id="foryou" class="tab-pane fade">
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="free" class="tab-pane fade">
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. 1</p>
+    </div>
+    <div id="pride" class="tab-pane fade">
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 2</p>
+    </div>
+    <div id="outdoor" class="tab-pane fade">
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 3</p>
+    </div>
+    <div id="indoor" class="tab-pane fade">
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 4</p>
+    </div>
+    <div id="foondanddrinks" class="tab-pane fade">
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 5</p>
+    </div>
+    <div id="music" class="tab-pane fade">
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 6</p>
+    </div>
+</div>
+
+<!-- Posts -->
+<div class="border-bottom border-dark-subtle mt-3">
+    <h4>Posts</h4>
+</div>
+
+<div class="container py-4 ps-0">
+    <div class="card social-post-card">
+        <div class="card-body p-4">
+            <!-- Header -->
+            <div class="d-flex align-items-center mb-3">
+                <div class="avatar-placeholder me-3">
+                    @* Put avatar image here *@
+                </div>
+                <h5 class="mb-0 flex-grow-1">AliceeeeParker</h5>
+                <!-- Link -->
+                <a href="#" class="ellipsis-link" aria-label="More Options">
+                    <i class="bi bi-three-dots"></i>
+                </a>
+            </div>
+
+            <!-- Media Section -->
+            <div class="media-placeholder w-100 mb-3 rounded-md">
+                 @* Put image here *@
+            </div>
+
+            <!-- Hearts -->
+            <div class="mb-3">
+                <i class="bi bi-heart-fill"></i>
+                <i class="bi bi-heart-fill"></i>
+                <i class="bi bi-heart-fill"></i>
+                <i class="bi bi-heart-fill"></i>
+            </div>
+
+            <!-- Post Text Section -->
+            <p class="post-text mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <!-- Timestamp section -->
+            <p class="post-timestamp mb-0">
+                2 hours ago
+            </p>
+        </div>
+    </div>
+</div>
+
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
