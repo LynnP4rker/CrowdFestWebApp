@@ -1,4 +1,5 @@
 ﻿@page
+@using CrowdFestWebApp.Aggregate;
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -42,126 +43,47 @@
     <div class="row justify-content-start">
         <!-- Events -->
         <div class="col-12 col-md-6 col-lg-4">
-            <div class="event-card">
-                <!-- Event Title -->
-                <div class="event-title">
-                    <span>Alice's 25th Birthday Party</span>
-                </div>
 
-                <!-- Event Statistics -->
-                <div class="event-stats">
-                    <div class="stat-item">
-                        <i class="bi bi-hand-thumbs-up-fill"></i> 15
+            @foreach (EventAggregate eventAggregate in Model.EventAggregates)
+            {
+                <div class="event-card">
+                    <!-- Event Title -->
+                    <div class="event-title">
+                        <span>@eventAggregate.Event.title</span>
                     </div>
-                    <div class="stat-item">
-                        <i class="bi bi-hand-thumbs-down-fill"></i> 2
-                    </div>
-                    <div class="stat-item">
-                        <i class="bi bi-people-fill"></i> 20
-                    </div>
-                </div>
 
-                <!-- Event Description -->
-                <p class="event-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua.
-                </p>
+                    <!-- Event Statistics -->
+                    <div class="event-stats">
+                        <div class="stat-item">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>@eventAggregate.Event.attendees
+                        </div>
+                        <div class="stat-item">
+                            <i class="bi bi-hand-thumbs-down-fill"></i>@eventAggregate.Event.absentees
+                        </div>
+                        <div class="stat-item">
+                            <i class="bi bi-people-fill"></i> 20
+                        </div>
+                    </div>
 
-                <!-- Event Details -->
-                <div class="event-details">
-                    <div class="detail-item">
-                        <i class="bi bi-calendar3"></i> 14/02/2026
-                    </div>
-                    <div class="detail-item">
-                        <i class="bi bi-clock-history"></i> 10:00 AM - 16:00 PM
-                    </div>
-                    <div class="detail-item">
-                        <i class="bi bi-geo-alt-fill"></i> Edinburgh
-                    </div>
-                </div>
-            </div>
-        </div>
+                    <!-- Event Description -->
+                    <p class="event-description">
+                        @eventAggregate.Event.description
+                    </p>
 
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="event-card">
-                <!-- Event Title -->
-                <div class="event-title">
-                    <span>Midnight Bowling</span>
-                </div>
-
-                <!-- Event Statistics -->
-                <div class="event-stats">
-                    <div class="stat-item">
-                        <i class="bi bi-hand-thumbs-up-fill"></i> 15
-                    </div>
-                    <div class="stat-item">
-                        <i class="bi bi-hand-thumbs-down-fill"></i> 2
-                    </div>
-                    <div class="stat-item">
-                        <i class="bi bi-people-fill"></i> 20
+                    <!-- Event Details -->
+                    <div class="event-details">
+                        <div class="detail-item">
+                            <i class="bi bi-calendar3"></i>@eventAggregate.Event.date
+                        </div>
+                        <div class="detail-item">
+                            <i class="bi bi-clock-history"></i>@eventAggregate.Event.time
+                        </div>
+                        <div class="detail-item">
+                            <i class="bi bi-geo-alt-fill"></i>@eventAggregate.Location.city
+                        </div>
                     </div>
                 </div>
-
-                <!-- Event Description -->
-                <p class="event-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua.
-                </p>
-
-                <!-- Event Details -->
-                <div class="event-details">
-                    <div class="detail-item">
-                        <i class="bi bi-calendar3"></i> 14/02/2026
-                    </div>
-                    <div class="detail-item">
-                        <i class="bi bi-clock-history"></i> 10:00 AM - 16:00 PM
-                    </div>
-                    <div class="detail-item">
-                        <i class="bi bi-geo-alt-fill"></i> Edinburgh
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="event-card">
-                <!-- Event Title -->
-                <div class="event-title">
-                    <span>Bongo Night</span>
-                </div>
-
-                <!-- Event Statistics -->
-                <div class="event-stats">
-                    <div class="stat-item">
-                        <i class="bi bi-hand-thumbs-up-fill"></i> 15
-                    </div>
-                    <div class="stat-item">
-                        <i class="bi bi-hand-thumbs-down-fill"></i> 2
-                    </div>
-                    <div class="stat-item">
-                        <i class="bi bi-people-fill"></i> 20
-                    </div>
-                </div>
-
-                <!-- Event Description -->
-                <p class="event-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua.
-                </p>
-
-                <!-- Event Details -->
-                <div class="event-details">
-                    <div class="detail-item">
-                        <i class="bi bi-calendar3"></i> 14/02/2026
-                    </div>
-                    <div class="detail-item">
-                        <i class="bi bi-clock-history"></i> 10:00 AM - 16:00 PM
-                    </div>
-                    <div class="detail-item">
-                        <i class="bi bi-geo-alt-fill"></i> Edinburgh
-                    </div>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </div>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrowdFestWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4513fd69102b9e75ccc5377bb11a9f599fdb844")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a43863c2220258ad79fdbbcb3b0b77aaa273d4db")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrowdFestWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrowdFestWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
